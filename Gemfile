@@ -39,13 +39,13 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
   gem "dotenv-rails"
   gem "letter_opener"
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
 end
 
 group :development do
   gem "web-console"
   gem "hotwire-livereload"
-  gem "ruby-lsp-rails"
+  gem "ruby-lsp-rails", ">= 0.3.5"
 end
 
 group :test do
