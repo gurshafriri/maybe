@@ -36,7 +36,7 @@ gem "faraday"
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem "brakeman", require: false
-  gem "rubocop-rails-omakase", require: false
+  gem "rubocop-rails-omakase", ">= 1.1.0", require: false
   gem "dotenv-rails"
   gem "letter_opener"
   gem "i18n-tasks"
