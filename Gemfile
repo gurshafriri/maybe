@@ -45,7 +45,7 @@ end
 group :development do
   gem "web-console"
   gem "hotwire-livereload"
-  gem "ruby-lsp-rails"
+  gem "ruby-lsp-rails", ">= 0.3.5"
 end
 
 group :test do
