@@ -14,22 +14,22 @@ gem "puma", ">= 5.0"
 gem "bootsnap", require: false
 
 # Assets
-gem "importmap-rails"
-gem "propshaft"
-gem "tailwindcss-rails"
+gem "importmap-rails", ">= 2.0.2"
+gem "propshaft", ">= 0.9.0"
+gem "tailwindcss-rails", ">= 2.3.0"
 gem "lucide-rails", github: "maybe-finance/lucide-rails"
 
 # Hotwire
-gem "stimulus-rails"
-gem "turbo-rails"
+gem "stimulus-rails", ">= 1.3.4"
+gem "turbo-rails", ">= 2.0.5"
 
 # Background Jobs
-gem "good_job"
+gem "good_job", ">= 3.26.0"
 
 # Other
 gem "bcrypt", "~> 3.1.7"
-gem "inline_svg"
-gem "jbuilder"
+gem "inline_svg", ">= 1.10.0"
+gem "jbuilder", ">= 2.12.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "faraday"
 
@@ -37,14 +37,14 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 3.0.3"
   gem "letter_opener"
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
 end
 
 group :development do
   gem "web-console"
-  gem "hotwire-livereload"
+  gem "hotwire-livereload", ">= 1.3.2"
   gem "ruby-lsp-rails"
 end
 
