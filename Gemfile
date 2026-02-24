@@ -43,7 +43,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "web-console"
+  gem "web-console", ">= 4.3.0"
   gem "hotwire-livereload"
   gem "ruby-lsp-rails"
 end
