@@ -27,7 +27,7 @@ gem "turbo-rails"
 gem "good_job"
 
 # Other
-gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.22"
 gem "inline_svg"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
