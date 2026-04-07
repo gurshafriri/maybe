@@ -38,7 +38,7 @@ group :development, :test do
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
   gem "dotenv-rails"
-  gem "letter_opener"
+  gem "letter_opener", ">= 1.10.0"
   gem "i18n-tasks"
 end
 
