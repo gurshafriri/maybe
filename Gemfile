@@ -11,7 +11,7 @@ gem "redis", ">= 4.0.1"
 
 # Deployment
 gem "puma", ">= 5.0"
-gem "bootsnap", require: false
+gem "bootsnap", ">= 1.18.4", require: false
 
 # Assets
 gem "importmap-rails"
